@@ -22,7 +22,7 @@ const track = async () => {
 function App() {
   // const steps = [
   //   {
-  //     content: "Hey Chidera, we have been together for over a year now...",
+  //     content: "Hey Nancy, we have been together for 4 months now...",
   //     image: "/character/one.png",
   //   },
   //   {
@@ -34,7 +34,7 @@ function App() {
   //     image: "/character/three.png",
   //   },
   //   {
-  //     content: "Now, even though you're far away at school...",
+  //     content: "Now, even though i haven`t seen you in a while...",
   //     image: "/character/four.png",
   //   },
   //   {
@@ -64,15 +64,15 @@ function App() {
 
   const steps = [
     {
-      content: "Hello Chidera 💖",
+      content: "Hey Nancy 💖",
       image: "/character/one.png",
     },
     {
-      content: `It's been over a year with you, and I wouldn't trade it for anything in the world. ❤️`,
+      content: `We have been together for 4 months now, and I wouldn't trade it for anything in the world.  ❤️`,
       image: "/character/two.png",
     },
     {
-      content: `Even though you're far away in Abraka, my heart is always with you. 💕`,
+      content: `Even though i havent seen you in a while, my heart is always with you.. 💕`,
       image: "/character/three.png",
     },
     {
@@ -155,7 +155,7 @@ function App() {
               transition={{ delay: 0.3, type: "spring" }}
               className="text-white text-4xl font-bold"
             >
-              Yayyyyyyy!!!!!
+              Yayyy!! I Love You❤️
             </motion.h1>
             <img
               src="/character/yayyyy.png"
@@ -175,7 +175,7 @@ function App() {
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, type: "spring" }}
           >
-            Hello Dera Touch Anywhere To Begin 💖
+            Hey Nancy Touch Anywhere To Begin 💖
           </motion.div>
         </div>
       ) : (
