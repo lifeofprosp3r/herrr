@@ -155,7 +155,7 @@ function App() {
               transition={{ delay: 0.3, type: "spring" }}
               className="text-white text-4xl font-bold"
             >
-              Yayyy!! I Love You❤️
+              Yayyy! Happy Valentines! I Love You❤️
             </motion.h1>
             <img
               src="/character/yayyyy.png"
@@ -175,7 +175,7 @@ function App() {
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, type: "spring" }}
           >
-            Hey Nancy Touch Anywhere To Begin 💖
+            Hey Nyasha, Tap Anywhere To Begin 💖
           </motion.div>
         </div>
       ) : (
